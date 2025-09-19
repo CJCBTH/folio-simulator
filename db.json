@@ -1,0 +1,16 @@
+{
+  "instances": [
+    {
+      "id": "1",
+      "title": "The Hobbit",
+      "contributors": [{"name": "J.R.R. Tolkien", "type": "author"}],
+      "identifiers": [{"type": "isbn", "value": "9780261102217"}]
+    },
+    {
+      "id": "2",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "contributors": [{"name": "J.K. Rowling", "type": "author"}],
+      "identifiers": [{"type": "isbn", "value": "9780747532699"}]
+    }
+  ]
+}
