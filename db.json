@@ -11,6 +11,52 @@
       "title": "Harry Potter and the Philosopher's Stone",
       "contributors": [{"name": "J.K. Rowling", "type": "author"}],
       "identifiers": [{"type": "isbn", "value": "9780747532699"}]
+    },
+    {
+      "id": "3",
+      "title": "Pride and Prejudice",
+      "contributors": [{"name": "Jane Austen", "type": "author"}],
+      "identifiers": [{"type": "isbn", "value": "9780141439518"}]
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "instanceId": "1",
+      "barcode": "10001",
+      "location": "Main Library"
+    },
+    {
+      "id": "i2",
+      "instanceId": "2",
+      "barcode": "10002",
+      "location": "Children's Section"
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alice",
+      "patronGroup": "Student"
+    },
+    {
+      "id": "u2",
+      "name": "Bob",
+      "patronGroup": "Staff"
+    }
+  ],
+  "loans": [
+    {
+      "id": "l1",
+      "itemId": "i1",
+      "userId": "u1",
+      "dueDate": "2025-10-31"
+    },
+    {
+      "id": "l2",
+      "itemId": "i2",
+      "userId": "u2",
+      "dueDate": "2025-09-25"
     }
   ]
 }
